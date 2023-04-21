@@ -1,0 +1,59 @@
+{
+  "name": "oms-fct",
+  "version": "1.1.6",
+  "description": "命令行交互终端，提供命令整合服务，适用于整合项目类型，帮助开发者快速找到相关项目启动命令，方便快捷",
+  "main": "index.js",
+  "scripts": {
+    "clear": "rimraf node_modules",
+    "test": "jest",
+    "test:unit": "node tests/file.ts",
+    "types": "tsc -d --declarationDir ./types --outDir temp && rimraf temp",
+    "babel": "rimraf dist && tsc && npx babel src -d dist"
+  },
+  "bin": {
+    "cmdr": "dist/index.js"
+  },
+  "keywords": [
+    "front-end",
+    "commander",
+    "terminal"
+  ],
+  "author": "williemwang",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/plugin-transform-runtime": "^7.21.4",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-typescript": "^7.16.5",
+    "@types/inquirer": "^9.0.3",
+    "@types/jest": "^27.0.3",
+    "@types/node": "^16.18.24",
+    "@types/shelljs": "^0.8.12",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^29.5.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "case-sensitive-paths-webpack-plugin": "^2.3.0",
+    "core-js": "^3.3.0",
+    "cross-env": "^7.0.3",
+    "jest": "^29.5.0",
+    "jest-transform-stub": "^2.0.0",
+    "path-is-absolute": "^2.0.0",
+    "rimraf": "^5.0.0",
+    "terser-webpack-plugin": "^4.2.3",
+    "ts-jest": "^29.1.0",
+    "ts-loader": "^8.0.11",
+    "ts-node": "^10.4.0"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "commander": "^10.0.1",
+    "inquirer": "^8.2.0",
+    "ora": "^6.3.0",
+    "shelljs": "^0.8.5",
+    "typescript": "^5.0.4",
+    "webpack-cli": "^4.10.0"
+  }
+}
