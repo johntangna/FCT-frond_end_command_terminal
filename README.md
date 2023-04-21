@@ -12,7 +12,15 @@
 
 ```
 
-```bash
+``` bash
+
+下载命令包自己决定即可
+
+npm i oms-fct
+
+```
+
+``` bash
 
 `cmdr run <packages>`
 
