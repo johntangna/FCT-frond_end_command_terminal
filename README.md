@@ -28,3 +28,14 @@ npm i oms-fct
 
 ```
 
+```info
+
+运行截图
+
+![image](https://user-images.githubusercontent.com/21993915/233593339-5a62f19e-19da-4d1b-8f3e-7f1086414098.png)
+
+![image](https://user-images.githubusercontent.com/21993915/233593412-3e0a9e1a-93b4-47cf-a543-eb32fd4410be.png)
+
+![image](https://user-images.githubusercontent.com/21993915/233593553-0113c217-75c5-48ef-8cd9-6d0a8f418fc6.png)
+```
+
